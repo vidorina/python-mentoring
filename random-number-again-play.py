@@ -25,6 +25,9 @@ while True:
        #A formatted string literal or f-string is a string literal that is prefixed with f or F. These strings may contain replacement fields, which are expressions delimited by curly braces {}. While other string literals always have a constant value, formatted strings are really expressions evaluated at run time.
        break
 
+
+
+
 #flush=True --> immediate printing! so like print("something", flush=True)
 
 #int - not a decimal number. so like 30, without the dot.
