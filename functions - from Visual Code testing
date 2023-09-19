@@ -1,0 +1,42 @@
+def add_number(number_a, number_b):
+    result = number_a + number_b
+    return result
+
+
+# arguments, infinite. (number_a, number_b)
+def sub_number(number_a, number_b):
+    result = number_a - number_b
+    return result
+
+
+a = 5
+b = 6.5
+
+# f = a - b
+# g = f - a
+
+f = sub_number(a, b)
+g = sub_number(f, a)
+
+c = add_number(a, b)
+d = sub_number(a, b)
+
+print("C value", c)
+print("D value", d)
+
+
+def add_numbers(*args):
+    result = 0
+
+    for number in args:
+        result += number
+        # += --> result = result + number
+
+        return result
+
+
+f = add_numbers(1, 2, 3, 4)
+print("F value", f)
+
+# any project idea, to use this knowledge. till next time
+# roadmap, website for python course.
